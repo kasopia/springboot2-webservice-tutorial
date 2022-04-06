@@ -24,8 +24,9 @@ repositories {
 }
 
 dependencies {
-    complie('org.springframework.boot:spring-boot-starter-web')
-    testComplie('org.springframework.boot:spring-boot-starter-test')
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    compile('org.projectlombok:lombok')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 //
 //test {
